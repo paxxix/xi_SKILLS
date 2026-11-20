@@ -339,7 +339,7 @@ class PPTGenerator:
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
         self.prs.save(str(output_path))
-        print(f"✓ PPT 文件已生成: {output_path.absolute()}")
+        print(f"PPT 文件已生成: {output_path.absolute()}")
 
 
 def main():
